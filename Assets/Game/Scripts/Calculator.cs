@@ -22,7 +22,7 @@ namespace Game
             if (firstNegativeIndex == -1)
                 return -1;
 
-            for (int i = numbers.Count - 1; i >= 0; i++)
+            for (int i = numbers.Count - 1; i >= 0; i--)
             {
                 if (numbers[i] < 0)
                 {
